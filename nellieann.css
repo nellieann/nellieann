@@ -34,6 +34,14 @@ h1 {
 	-moz-border-radius: 100px;
 }
 
+a {
+	color: gray;
+}
+
+a:hover {
+	color: purple;
+}
+
 ul {
 	padding: 0 0 10px 0;
 }
