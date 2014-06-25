@@ -1,5 +1,4 @@
 html {
-	margin: 0;
 	padding: 0;
 	height: 100%;
 }
@@ -7,7 +6,6 @@ html {
 body {
 	font-family: sans-serif;
 	font-size: 16px;
-	background: white;
 	color: #33333d;
 	text-align: center;
 }
@@ -34,11 +32,27 @@ h1 {
 	-moz-border-radius: 100px;
 }
 
-a {
+
+a.projects {
+	margin: auto;
+	z-index: 100;
+	width: 87px;
+	height: 88px;
+	background-image: url("star-gold-purple.jpg");
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	display: block;
+}
+
+a.projects:hover {
+	background-position: -87px 0;
+}
+
+.links a {
 	color: gray;
 }
 
-a:hover {
+.links a:hover {
 	color: purple;
 }
 
