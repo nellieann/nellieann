@@ -36,8 +36,8 @@ h1 {
 a.projects {
 	margin: auto;
 	z-index: 100;
-	width: 83px;
-	height: 83px;
+	width: 80px;
+	height: 80px;
 	background-image: url("star-gold-purple.jpg");
 	background-repeat: no-repeat;
 	background-position: 0 0;
@@ -45,7 +45,7 @@ a.projects {
 }
 
 a.projects:hover {
-	background-position: -84px 0;
+	background-position: -80px 0;
 }
 
 .links a {
