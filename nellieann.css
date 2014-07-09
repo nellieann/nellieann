@@ -48,16 +48,20 @@ a.projects:hover {
 	background-position: 0 -80px;
 }
 
+ul {
+	padding: 0 0 10px 0;
+}
+
+a {
+	text-decoration: none;
+}
+
 .links a {
 	color: gray;
 }
 
-.links a:hover {
+footer a:hover, .links a:hover {
 	color: purple;
-}
-
-ul {
-	padding: 0 0 10px 0;
 }
 
 .links li {
@@ -84,7 +88,6 @@ ul {
 	font-style: italic;
 	font-size: 20px;
 	clear: both;
-	padding: 15px;
 }
 
 @media only screen and (max-width: 650px)  {
@@ -94,12 +97,28 @@ ul {
 }
 }
 
-@media only screen and (min-width: 800px)  {
+@media only screen and (min-width: 650px)  {
 html {
 	width: 800px;
 	margin: auto;
 }
 .quote {
-	padding-bottom: 100px;
+	padding-bottom: 30px;
 }
+}
+
+footer {
+	font-size: 1em;
+	position: relative;
+	bottom: 0;
+	margin: 0 auto;
+	height: 25px;
+	width: 300px;
+	padding-top: 5px;
+	border-radius: 5px;
+	background-color: grey;
+}
+
+footer a {
+	color: black;
 }
