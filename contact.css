@@ -1,0 +1,36 @@
+h1 {
+  background-color: grey;
+}
+
+h1, button {
+  border-radius: 5px;
+}
+
+.contact {
+  text-align: left;
+  margin-left: 15px;
+}
+
+.links {
+  padding-left: 20px;
+}
+
+button {
+  font-size: 1em;
+}
+
+button:hover {
+  color: purple;
+}
+
+@media only screen and (max-width: 650px)  {
+h1 {
+  width: 300px;
+}
+}
+
+@media only screen and (min-width: 650px)  {
+h1 {
+  width: 800px;
+}
+}
