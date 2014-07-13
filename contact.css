@@ -26,6 +26,7 @@ button:hover {
 @media only screen and (max-width: 650px)  {
 h1 {
   width: 300px;
+  margin: auto;
 }
 }
 
