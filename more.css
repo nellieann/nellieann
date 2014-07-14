@@ -15,6 +15,21 @@ h1, button {
   padding-left: 20px;
 }
 
+a.projects {
+  margin: auto;
+  z-index: 100;
+  width: 80px;
+  height: 80px;
+  background-image: url("star-gold-purple.jpg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  display: block;
+}
+
+a.projects:hover {
+  background-position: 0 -80px;
+}
+
 button {
   font-size: 1em;
 }
